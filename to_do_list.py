@@ -6,9 +6,11 @@
 # print("Hello World!")
 # print("Have a good day.")
 # print("Learning Python is fun!")
-print("Hello World!")
-print("I am learning Python.")
-print("It is awesome!")
+# print("Hello World!")
+# print("I am learning Python.")
+# print("It is awesome!")
 
-print(3 + 3)
-print(2 * 5)
+# print(3 + 3)
+# print(2 * 5)
+
+print("I am", 35, "years old.")
