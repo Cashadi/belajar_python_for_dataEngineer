@@ -15,14 +15,19 @@
 
 # print("I am", 35, "years old.")
 
-x = 5
-y = "John"
+# x = 5
+# y = "John"
+# print(x)
+# print(y)
+
+
+x, y, z = "Orange", "Banana", "Cherry"
 print(x)
 print(y)
+print(z)
 
-myvar = "John"
-my_var = "John"
-_my_var = "John"
-myVar = "John"
-MYVAR = "John"
-myvar2 = "John"
+fruits = ["apple", "banana", "cherry"]
+a, b, c = fruits
+print(a)
+print(b)
+print(c)
