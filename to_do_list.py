@@ -43,6 +43,13 @@
 # print(type(y))
 # print(type(z))
 
-import random
+# import random
 
-print(random.randrange(1, 10))
+# print(random.randrange(1, 10))
+
+x = int(1)
+y = int(2.8)
+z = int("3")
+print(x)
+print(y)
+print(z)
