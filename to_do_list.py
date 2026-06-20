@@ -21,13 +21,16 @@
 # print(y)
 
 
-x, y, z = "Orange", "Banana", "Cherry"
-print(x)
-print(y)
-print(z)
+# x, y, z = "Orange", "Banana", "Cherry"
+# print(x)
+# print(y)
+# print(z)
 
-fruits = ["apple", "banana", "cherry"]
-a, b, c = fruits
-print(a)
-print(b)
-print(c)
+# fruits = ["apple", "banana", "cherry"]
+# a, b, c = fruits
+# print(a)
+# print(b)
+# print(c)
+
+x = 5
+print(type(x))
