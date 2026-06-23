@@ -71,5 +71,11 @@
 # for x in "cashadi":
 #   print(x) 
 
-a = "Hello, World!"
-print(len(a))
+# a = "Hello, World!"
+# print(len(a))
+
+# slicing strings
+b = "Hello, World!"
+print(b[2:5])
+print(b[2:])
+print(b[-5:-2])
