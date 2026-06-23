@@ -65,5 +65,8 @@
 # print(w)
 
 # python string
-a = "Hello, World!"
-print(a[10])
+# a = "Hello, World!"
+# print(a[10])
+
+for x in "cashadi":
+  print(x) 
