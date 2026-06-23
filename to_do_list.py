@@ -68,5 +68,8 @@
 # a = "Hello, World!"
 # print(a[10])
 
-for x in "cashadi":
-  print(x) 
+# for x in "cashadi":
+#   print(x) 
+
+a = "Hello, World!"
+print(len(a))
