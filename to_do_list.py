@@ -55,11 +55,15 @@
 # print(z)
 
 
-x = float(1)
-y = float(2.8)
-z = float("3")
-w = float("4.2")
-print(x)
-print(y)
-print(z)
-print(w)
+# x = float(1)
+# y = float(2.8)
+# z = float("3")
+# w = float("4.2")
+# print(x)
+# print(y)
+# print(z)
+# print(w)
+
+# python string
+a = "Hello, World!"
+print(a[10])
