@@ -82,8 +82,17 @@
 
 
 # modify strings
-a = "Hello, World!"
-print(a.upper())
-print(a.lower())
-print(a.replace("H", "J"))
-print(a.split(","))
+# a = "Hello, World!"
+# print(a.upper())
+# print(a.lower())
+# print(a.replace("H", "J"))
+# print(a.split(","))
+
+
+# concatenate string
+a = "Hello"
+b = "World"
+c = a + b
+d = a + " " + b
+print(c)
+print(d)
