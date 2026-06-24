@@ -75,7 +75,15 @@
 # print(len(a))
 
 # slicing strings
-b = "Hello, World!"
-print(b[2:5])
-print(b[2:])
-print(b[-5:-2])
+# b = "Hello, World!"
+# print(b[2:5])
+# print(b[2:])
+# print(b[-5:-2])
+
+
+# modify strings
+a = "Hello, World!"
+print(a.upper())
+print(a.lower())
+print(a.replace("H", "J"))
+print(a.split(","))
