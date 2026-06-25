@@ -98,13 +98,17 @@
 # print(d)
 
 # format string
-age = 36
-price = 59
-txt = f"My name is Cashadi, I am {age}"
-txt1 = f"The price is {price} dollars"
-txt2 = f"The price is {price:.2f} dollars"
-txt3 = f"The price is {20 * 59} dollars"
-print(txt)
-print(txt1)
-print(txt2)
-print(txt3)
+# age = 36
+# price = 59
+# txt = f"My name is Cashadi, I am {age}"
+# txt1 = f"The price is {price} dollars"
+# txt2 = f"The price is {price:.2f} dollars"
+# txt3 = f"The price is {20 * 59} dollars"
+# print(txt)
+# print(txt1)
+# print(txt2)
+# print(txt3)
+
+# python escape character
+txt = "\x48\x65\x6c\x6c\x6f"
+print(txt) 
