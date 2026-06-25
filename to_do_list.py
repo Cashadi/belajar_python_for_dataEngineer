@@ -110,5 +110,10 @@
 # print(txt3)
 
 # python escape character
-txt = "\x48\x65\x6c\x6c\x6f"
-print(txt) 
+# txt = "\x48\x65\x6c\x6c\x6f"
+# print(txt) 
+
+# pyhons boolean
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
