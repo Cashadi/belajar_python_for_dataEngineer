@@ -148,7 +148,13 @@
 
 # print(a // b)
 
-numbers = [1, 2, 3, 4, 5]
+# numbers = [1, 2, 3, 4, 5]
 
-if (count := len(numbers)) > 3:
-    print(f"List has {count} elements")
+# if (count := len(numbers)) > 3:
+#     print(f"List has {count} elements")
+
+num = 6
+
+x = "Fri" if num == 5 else "Sat" if num == 6 else "Sun" if num == 7 else "weekday"
+
+print(x)
