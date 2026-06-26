@@ -138,12 +138,17 @@
 # print(x // y)
 
 # arithmatic operator 
-x = 2
-y = 5
+# x = 2
+# y = 5
 
-print(x ** y) #same as 2*2*2*2*2
+# print(x ** y) 
 
-a = 15
-b = 2
+# a = 15
+# b = 2
 
-print(a // b)
+# print(a // b)
+
+numbers = [1, 2, 3, 4, 5]
+
+if (count := len(numbers)) > 3:
+    print(f"List has {count} elements")
