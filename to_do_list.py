@@ -118,21 +118,32 @@
 # print(10 == 9)
 # print(10 < 9)
 
-sum1 = 100 + 50      # 150 (100 + 50)
-sum2 = sum1 + 250    # 400 (150 + 250)
-sum3 = sum2 + sum2   # 800 (400 + 400)
+# sum1 = 100 + 50      # 150 (100 + 50)
+# sum2 = sum1 + 250    # 400 (150 + 250)
+# sum3 = sum2 + sum2   # 800 (400 + 400)
 
-print(sum1)
-print(sum2)
-print(sum3)
+# print(sum1)
+# print(sum2)
+# print(sum3)
 
-x = 15
-y = 4
+# x = 15
+# y = 4
 
-print(x + y)
-print(x - y)
-print(x * y)
-print(x / y)
-print(x % y)
-print(x ** y)
-print(x // y)
+# print(x + y)
+# print(x - y)
+# print(x * y)
+# print(x / y)
+# print(x % y)
+# print(x ** y)
+# print(x // y)
+
+# arithmatic operator 
+x = 2
+y = 5
+
+print(x ** y) #same as 2*2*2*2*2
+
+a = 15
+b = 2
+
+print(a // b)
