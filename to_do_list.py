@@ -174,8 +174,15 @@
 
 # print(not(x > 3 and x < 10))
 
-x = [1, 2, 3]
-y = [1, 2, 3]
+# x = [1, 2, 3]
+# y = [1, 2, 3]
 
-print(x == y)
-print(x is y)
+# print(x == y)
+# print(x is y)
+
+text = "Hello World"
+
+print("H" in text)
+print("hello" in text)
+print("z" not in text)
+
