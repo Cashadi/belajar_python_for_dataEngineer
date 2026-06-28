@@ -170,6 +170,12 @@
 # print(x >= y)
 # print(x <= y)
 
-x = 5
+# x = 5
 
-print(not(x > 3 and x < 10))
+# print(not(x > 3 and x < 10))
+
+x = [1, 2, 3]
+y = [1, 2, 3]
+
+print(x == y)
+print(x is y)
