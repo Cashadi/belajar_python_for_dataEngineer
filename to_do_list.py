@@ -180,9 +180,11 @@
 # print(x == y)
 # print(x is y)
 
-text = "Hello World"
+# text = "Hello World"
 
-print("H" in text)
-print("hello" in text)
-print("z" not in text)
+# print("H" in text)
+# print("hello" in text)
+# print("z" not in text)
 
+
+print(6 ^ 3)
