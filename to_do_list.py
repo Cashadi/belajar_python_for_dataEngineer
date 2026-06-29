@@ -189,4 +189,8 @@
 
 # print(6 ^ 3)
 
-print(5 + 4 - 7 + 3)
+# print(5 + 4 - 7 + 3)
+
+thislist = list(("apple", "banana", "cherry"))
+print(thislist)
+
