@@ -191,6 +191,8 @@
 
 # print(5 + 4 - 7 + 3)
 
-thislist = list(("apple", "banana", "cherry"))
-print(thislist)
+# thislist = list(("apple", "banana", "cherry"))
+# print(thislist)
 
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1])
