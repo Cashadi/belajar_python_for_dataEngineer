@@ -197,8 +197,15 @@
 # thislist = ["apple", "banana", "cherry"]
 # print(thislist[1])
 
-thislist = ["apple", "banana", "cherry"]
+# thislist = ["apple", "banana", "cherry"]
 
-thislist.insert(2, "watermelon")
+# thislist.insert(2, "watermelon")
+
+# print(thislist) 
+
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+
+thislist.extend(thistuple)
 
 print(thislist) 
