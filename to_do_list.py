@@ -217,6 +217,10 @@
 
 # print(thislist) 
 
+# thislist = ["apple", "banana", "cherry"]
+# thislist.clear()
+# print(thislist)
+
 thislist = ["apple", "banana", "cherry"]
-thislist.clear()
-print(thislist)
+for x in thislist:
+  print(x)
