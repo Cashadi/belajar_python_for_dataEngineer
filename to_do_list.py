@@ -224,12 +224,19 @@
 # thislist = ["apple", "banana", "cherry"]
 # [print(x) for x in thislist]
 
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newlist = []
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# newlist = []
 
-for x in fruits:
-  if "a" in x:
-    newlist.append(x)
+# for x in fruits:
+#   if "a" in x:
+#     newlist.append(x)
 
-print(newlist)
+# print(newlist)
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+
+thislist.reverse()
+
+print(thislist) 
+
 
