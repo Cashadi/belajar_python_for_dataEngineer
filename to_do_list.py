@@ -210,10 +210,13 @@
 
 # print(thislist) 
 
+# thislist = ["apple", "banana", "cherry"]
+# thistuple = ("kiwi", "orange")
+
+# thislist.extend(thistuple)
+
+# print(thislist) 
+
 thislist = ["apple", "banana", "cherry"]
-thistuple = ("kiwi", "orange")
-
-thislist.extend(thistuple)
-
-print(thislist) 
-
+thislist.clear()
+print(thislist)
