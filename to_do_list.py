@@ -233,10 +233,12 @@
 
 # print(newlist)
 
-thislist = ["banana", "Orange", "Kiwi", "cherry"]
+# thislist = ["banana", "Orange", "Kiwi", "cherry"]
 
-thislist.reverse()
+# thislist.reverse()
 
-print(thislist) 
+# print(thislist) 
 
-
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)
