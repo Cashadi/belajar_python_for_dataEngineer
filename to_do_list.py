@@ -243,8 +243,10 @@
 # mylist = thislist.copy()
 # print(mylist)
 
-list1 = ["a", "b", "c"]
-list2 = [1, 2, 3]
+# list1 = ["a", "b", "c"]
+# list2 = [1, 2, 3]
 
-list3 = list1 + list2
-print(list3)
+# list3 = list1 + list2
+# print(list3)
+
+print("Hello"); print("How are you?"); print("Bye bye!")
