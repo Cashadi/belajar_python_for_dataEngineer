@@ -250,5 +250,16 @@
 # print(list3)
 
 # print("Hello"); print("How are you?"); print("Bye bye!")
-print("Hello World!", end=" ")
-print("I will print on the same line.")
+# print("Hello World!", end=" ")
+# print("I will print on the same line.")
+
+# This is a comment
+
+# Comment out this line so it does not run:
+# print("This should not run")
+
+"""
+This is
+a multiline
+comment
+"""
