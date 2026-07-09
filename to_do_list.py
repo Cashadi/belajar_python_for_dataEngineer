@@ -256,10 +256,9 @@
 # This is a comment
 
 # Comment out this line so it does not run:
-# print("This should not run")
 
-"""
-This is
-a multiline
-comment
-"""
+a = 4
+A = "Sally"
+
+print(a)
+print(A)
