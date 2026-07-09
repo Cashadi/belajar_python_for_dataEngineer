@@ -257,8 +257,10 @@
 
 # Comment out this line so it does not run:
 
-a = 4
-A = "Sally"
+# Create variable x with value 5
+x = 5
+# Create variable y with value "John"
+y = "John"
+# Print the type of x
+print(type(x))
 
-print(a)
-print(A)
