@@ -37,3 +37,18 @@ new_olive_oil_tbsp = olive_oil_tbsp + 1
 
 print(garlic_cloves)
 print(new_olive_oil_tbsp)
+
+# Track if you have pasta at home
+has_pasta = True
+
+# Track if you have garlic
+has_garlic = False
+
+print(has_pasta)
+print(has_garlic)
+
+# Check the data type of olive_oil_tbsp
+print(type(olive_oil_tbsp))
+
+# Check the data type of has_pasta
+print(type(has_pasta))
