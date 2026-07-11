@@ -79,3 +79,28 @@ ingredient_one = ingredient_one.lower()
 
 print(pasta_type)
 print(ingredient_one)
+
+# Create a list of ingredients
+ingredients = ["fusilli", "tomatoes", "garlic", "basil", "olive oil", "salt"]
+
+# Create a list of ingredient quantities
+quantities = [500, 400, 15, 20, 30, 10]
+
+print(ingredients)
+print(quantities)
+
+ingredients = ["fusilli", "tomatoes", "garlic", "basil", "olive oil", "salt"]
+quantities = [500, 400, 15, 20, 30, 10]
+
+# Get the second ingredient for your preview
+second_ingredient = ingredients[1]
+
+# Get the last quantity using slice notation
+last_quantity = quantities[-1:]
+
+# Get every other ingredient, starting with the first
+alternate_ingredient = ingredients[::2]
+
+print(second_ingredient)
+print(last_quantity)
+print(alternate_ingredient)
