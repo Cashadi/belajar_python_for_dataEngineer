@@ -104,3 +104,43 @@ alternate_ingredient = ingredients[::2]
 print(second_ingredient)
 print(last_quantity)
 print(alternate_ingredient)
+
+# Create the recipe dictionary
+recipe = {"olive_oil": 30, 
+# Add garlic
+          "garlic": 15,
+# Add tomatoes
+          "tomatoes": 400}
+
+print(recipe)
+
+# Create the recipe dictionary
+recipe = {"olive_oil": 30,
+# Add garlic
+          "garlic": 15,
+# Add tomatoes
+          "tomatoes": 400}
+
+# Add basil to the recipe dictionary
+recipe["basil"] = 20
+
+print(recipe)
+
+# Get all ingredient names
+ingredient_names = recipe.keys()
+
+# Get all quantities
+quantities = recipe.values()
+
+# Get all key-value pairs
+recipe_items = recipe.items()
+
+print("Ingredient names:", ingredient_names)
+print("Quantities:", quantities)
+print("Recipe items:", recipe_items)
+
+# Create a tuple
+cup_conversion = (1, 240)
+
+# Check the type
+print(type(cup_conversion))
