@@ -144,3 +144,10 @@ cup_conversion = (1, 240)
 
 # Check the type
 print(type(cup_conversion))
+
+pantry_stock = {"tomatoes": 500}
+ingredients_needed = {"tomatoes": 400}
+
+# Check if you have enough tomatoes for the full party
+if pantry_stock["tomatoes"] >= ingredients_needed["tomatoes"]:
+    print("Enough tomatoes for the party!")
