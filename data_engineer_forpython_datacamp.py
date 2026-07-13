@@ -155,3 +155,9 @@ if pantry_stock["tomatoes"] >= ingredients_needed["tomatoes"]:
 # Check if you have enough for a smaller gathering
 elif pantry_stock["tomatoes"] >= 800:
     print("Only enough tomatoes for a smaller gathering.")
+
+ingredients = ["fusilli", "tomatoes", "garlic", "basil", "olive oil", "salt"]
+
+# Loop through each ingredient in the list
+for item in ingredients:
+    print(item)
