@@ -11,7 +11,7 @@
 # # Call the function on the full_name string
 # print(generate_email(full_name))
 
-test_durations = [245.50, 189.99, 312.75, 156.20, 428.90, 201.35, 167.80]
+# test_durations = [245.50, 189.99, 312.75, 156.20, 428.90, 201.35, 167.80]
 
 # Complete the function
 # def test_report(durations):
@@ -59,22 +59,35 @@ test_durations = [245.50, 189.99, 312.75, 156.20, 428.90, 201.35, 167.80]
 # # Test with default behavior
 # print(clean_text(product))
 
-original_price = 899.99
+# original_price = 899.99
 
 # Define the function with default arguments
-def calculate_discount(price, discount_percent=15, round_result=True):
-    discounted_price = price - (price * (discount_percent / 100))
+# def calculate_discount(price, discount_percent=15, round_result=True):
+#     discounted_price = price - (price * (discount_percent / 100))
     
+#     if round_result == True:
+#         # Round the result to two decimal places
+#         return round(discounted_price, 2)
+#     else:
+#         return discounted_price
+
+# # Call the function with keyword arguments
+# final_price = calculate_discount(
+#     price=original_price,
+#     discount_percent=25,
+#     round_result=False
+# )
+# print(final_price)
+
+def calculate_discount(price, discount_percent=15, round_result=True):
+    # Add a single-line docstring
+    """Calculate the discounted price of a product."""
+    
+    discounted_price = price - (price * (discount_percent / 100))
     if round_result == True:
-        # Round the result to two decimal places
         return round(discounted_price, 2)
     else:
         return discounted_price
 
-# Call the function with keyword arguments
-final_price = calculate_discount(
-    price=original_price,
-    discount_percent=25,
-    round_result=False
-)
-print(final_price)
+# Access the docstring
+print(calculate_discount.__doc__)
