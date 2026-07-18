@@ -92,17 +92,31 @@
 # # Access the docstring
 # print(calculate_discount.__doc__)
 
-def clean_text(text, lower=True):
-    # Add a multi-line docstring
-    """
-    Clean text by swapping spaces to underscores and converting to lowercase.
+# def clean_text(text, lower=True):
+#     # Add a multi-line docstring
+#     """
+#     Clean text by swapping spaces to underscores and converting to lowercase.
     
-    Args:
-        text (str): A string to be cleaned.
-        lower (bool): Whether to convert the text to lowercase.
-    """
-    clean_text = text.replace(' ', '_')
-    if lower == False:
-        return clean_text
-    else:
-        return clean_text.lower()
+#     Args:
+#         text (str): A string to be cleaned.
+#         lower (bool): Whether to convert the text to lowercase.
+#     """
+#     clean_text = text.replace(' ', '_')
+#     if lower == False:
+#         return clean_text
+#     else:
+#         return clean_text.lower()
+
+# Define a function called concat
+def concat(*args):
+    """Concatenates multiple string arguments with spaces between them."""
+
+    result = ""
+
+    # Iterate over the Python args tuple
+    for arg in args:
+        result += " " + arg
+    return result
+
+# Call the function
+print(concat("Python", "is", "great!"))
