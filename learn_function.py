@@ -79,15 +79,30 @@
 # )
 # print(final_price)
 
-def calculate_discount(price, discount_percent=15, round_result=True):
-    # Add a single-line docstring
-    """Calculate the discounted price of a product."""
+# def calculate_discount(price, discount_percent=15, round_result=True):
+#     # Add a single-line docstring
+#     """Calculate the discounted price of a product."""
     
-    discounted_price = price - (price * (discount_percent / 100))
-    if round_result == True:
-        return round(discounted_price, 2)
-    else:
-        return discounted_price
+#     discounted_price = price - (price * (discount_percent / 100))
+#     if round_result == True:
+#         return round(discounted_price, 2)
+#     else:
+#         return discounted_price
 
-# Access the docstring
-print(calculate_discount.__doc__)
+# # Access the docstring
+# print(calculate_discount.__doc__)
+
+def clean_text(text, lower=True):
+    # Add a multi-line docstring
+    """
+    Clean text by swapping spaces to underscores and converting to lowercase.
+    
+    Args:
+        text (str): A string to be cleaned.
+        lower (bool): Whether to convert the text to lowercase.
+    """
+    clean_text = text.replace(' ', '_')
+    if lower == False:
+        return clean_text
+    else:
+        return clean_text.lower()
