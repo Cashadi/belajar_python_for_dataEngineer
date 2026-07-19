@@ -108,25 +108,35 @@
 #         return clean_text.lower()
 
 # Define a function called concat
-def concat(*args):
-    """Concatenates multiple string arguments with spaces between them."""
+# def concat(*args):
+#     """Concatenates multiple string arguments with spaces between them."""
 
-    result = ""
+#     result = ""
 
-    # Iterate over the Python args tuple
-    for arg in args:
-        result += " " + arg
-    return result
+#     # Iterate over the Python args tuple
+#     for arg in args:
+#         result += " " + arg
+#     return result
 
-# Call the function
-print(concat("Python", "is", "great!"))
+# # Call the function
+# print(concat("Python", "is", "great!"))
+
+# def clean_text(text):
+#     # Attempt to clean the text
+#     try:
+#         return text.replace(" ", "_").lower()
+#     # Run this code if an error occurs
+#     except:
+#         print("The clean_text() function expects a string as an argument, please check the data type provided!")
+    
+# clean_text(187)
 
 def clean_text(text):
-    # Attempt to clean the text
-    try:
+    # Check the data type
+    if type(text) == str:
         return text.replace(" ", "_").lower()
-    # Run this code if an error occurs
-    except:
-        print("The clean_text() function expects a string as an argument, please check the data type provided!")
+    else:
+        # Return a TypeError error if the wrong data type was used
+        raise TypeError("The clean_text() function expects a string as an argument, please check the data type provided!")
     
-clean_text(187)
+clean_text("User Name 187")
