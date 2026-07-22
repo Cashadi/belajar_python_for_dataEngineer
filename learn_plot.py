@@ -15,12 +15,26 @@ file = os.path.join(path, 'train_and_test2.csv')
 # Baca dataset
 data = pd.read_csv(file)
 
-# Tampilkan 5 baris pertama
+# Tampilkan 5 data pertama
+print("\n=== HEAD ===")
 print(data.head())
 
-# Plot Age dalam histogram
-data['Age'].hist()
+# Tampilkan 5 data terakhir
+print("\n=== TAIL ===")
+print(data.tail())
 
-plt.xlabel('Age (years)')
-plt.ylabel('count')
-plt.show()
+# Tampilkan nama kolom
+print("\n=== COLUMNS ===")
+print(data.columns.tolist())
+
+# Tampilkan ukuran dataset
+print("\n=== SHAPE ===")
+print(data.shape)
+
+# Tampilkan informasi dataset
+print("\n=== INFO ===")
+print(data.info())
+
+# Tampilkan statistik
+print("\n=== DESCRIBE ===")
+print(data.describe())
