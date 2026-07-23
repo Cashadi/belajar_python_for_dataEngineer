@@ -257,10 +257,13 @@
 
 # Comment out this line so it does not run:
 
-# Create variable x with value 5
+# Create variables
 x = 5
-# Create variable y with value "John"
-y = "John"
-# Print the type of x
+y = 3.14
+z = "Hello"
+
+# Print the data type of each variable
 print(type(x))
+print(type(y))
+print(type(z))
 
