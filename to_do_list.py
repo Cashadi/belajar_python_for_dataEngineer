@@ -257,19 +257,16 @@
 
 # Comment out this line so it does not run:
 
-#convert from int to float:
-x = float(1)
+# Create an integer
+x = 5
 
-#convert from float to int:
-y = int(2.8)
+# Create a float
+y = 3.14
 
-#convert from int to complex:
-z = complex(1)
+# Create a complex number
+z = 2 + 3j
 
-print(x)
-print(y)
-print(z)
-
+# Print the types
 print(type(x))
 print(type(y))
 print(type(z))
