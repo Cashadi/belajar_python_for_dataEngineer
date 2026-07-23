@@ -258,17 +258,14 @@
 # Comment out this line so it does not run:
 
 # Create an integer
-x = 5
+x = 1
 
-# Create a float
-y = 3.14
+# Convert to float
+a = float(x)
 
-# Create a complex number
-z = 2 + 3j
+# Convert to string
+b = str(x)
 
-# Print the types
-print(type(x))
-print(type(y))
-print(type(z))
-
-
+# Print values
+print(a)
+print(b)
