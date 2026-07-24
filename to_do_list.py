@@ -257,29 +257,10 @@
 
 # Comment out this line so it does not run:
 
-# Create the variable
-txt = "Hello, World!"
+sum1 = 100 + 50      # 150 (100 + 50)
+sum2 = sum1 + 250    # 400 (150 + 250)
+sum3 = sum2 + sum2   # 800 (400 + 400)
 
-# Print characters from index 2 to 5
-print(txt[2:6])
-
-# Print in upper case
-print(txt.upper())
-
-# Create the name variable
-name = "Python"
-
-# Print using an f-string
-print(f"I love {name}")
-
-# Print the result of 10 > 9
-print(10 > 9)
-
-# Print the result of 10 == 9
-print(10 == 9)
-
-# Print the result of bool("Hello")
-print(bool("Hello"))
-
-# Print the result of bool(0)
-print(bool(0))
+print(sum1)
+print(sum2)
+print(sum3)
