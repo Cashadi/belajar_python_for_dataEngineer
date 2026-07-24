@@ -257,15 +257,17 @@
 
 # Comment out this line so it does not run:
 
-# Create an integer
-x = 1
+# Create the variable
+txt = "Hello, World!"
 
-# Convert to float
-a = float(x)
+# Print characters from index 2 to 5
+print(txt[2:6])
 
-# Convert to string
-b = str(x)
+# Print in upper case
+print(txt.upper())
 
-# Print values
-print(a)
-print(b)
+# Create the name variable
+name = "Python"
+
+# Print using an f-string
+print(f"I love {name}")
