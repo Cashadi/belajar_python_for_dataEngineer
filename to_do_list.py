@@ -257,10 +257,20 @@
 
 # Comment out this line so it does not run:
 
-sum1 = 100 + 50      # 150 (100 + 50)
-sum2 = sum1 + 250    # 400 (150 + 250)
-sum3 = sum2 + sum2   # 800 (400 + 400)
+# Create variables
+a = 15
+b = 4
 
-print(sum1)
-print(sum2)
-print(sum3)
+# Print modulus
+print(a % b)
+
+# Print floor division
+print(a // b)
+
+# Print power
+print(a ** b)
+
+# Add 10 to a
+a += 10
+print(a)
+
