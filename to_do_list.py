@@ -258,19 +258,37 @@
 # Comment out this line so it does not run:
 
 # Create variables
-a = 15
-b = 4
+# a = 15
+# b = 4
 
-# Print modulus
-print(a % b)
+# # Print modulus
+# print(a % b)
 
-# Print floor division
-print(a // b)
+# # Print floor division
+# print(a // b)
 
-# Print power
-print(a ** b)
+# # Print power
+# print(a ** b)
 
-# Add 10 to a
-a += 10
-print(a)
+# # Add 10 to a
+# a += 10
+# print(a)
+
+# Create a list
+colors = ["red", "green", "blue"]
+
+# Print the first item
+print(colors[0])
+
+# Change the second item to "yellow"
+colors[1] = "yellow"
+
+# Add "purple" to the end
+colors.append("purple")
+
+# Remove "red"
+colors.remove("red")
+
+# Print the list
+print(colors)
 
