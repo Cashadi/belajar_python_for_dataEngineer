@@ -274,21 +274,23 @@
 # a += 10
 # print(a)
 
-# Create a list
-colors = ["red", "green", "blue"]
+# # Create a list
+# colors = ["red", "green", "blue"]
 
-# Print the first item
-print(colors[0])
+# # Print the first item
+# print(colors[0])
 
-# Change the second item to "yellow"
-colors[1] = "yellow"
+# # Change the second item to "yellow"
+# colors[1] = "yellow"
 
-# Add "purple" to the end
-colors.append("purple")
+# # Add "purple" to the end
+# colors.append("purple")
 
-# Remove "red"
-colors.remove("red")
+# # Remove "red"
+# colors.remove("red")
 
-# Print the list
-print(colors)
+# # Print the list
+# print(colors)
 
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
