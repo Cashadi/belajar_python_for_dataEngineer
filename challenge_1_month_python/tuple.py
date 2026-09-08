@@ -1,3 +1,5 @@
 customer = ("Budi", 25, "Jakarta")
 
-print(customer[2])
+customer[0] = "Andi"
+
+print(customer[0])
