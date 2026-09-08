@@ -8,4 +8,5 @@ numbers.append(22)
 # menghapus angka 30 dari list
 numbers.remove(30)
 
-print(numbers)
+for number in numbers:
+    print(number)
